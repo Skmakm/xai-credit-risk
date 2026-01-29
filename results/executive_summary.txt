@@ -1,0 +1,33 @@
+
+EXPLAINABLE AI FOR CREDIT RISK PREDICTION
+EXECUTIVE SUMMARY
+============================================================
+
+KEY FINDINGS:
+
+1. PERFORMANCE COMPARISON:
+   - Best Accuracy: 0.813
+   - Best ROC-AUC: 0.753
+
+2. INTERPRETABILITY ASSESSMENT:
+   - Most Interpretable: Logistic Regression
+   - Least Interpretable: Xgboost
+
+3. ACCURACY VS INTERPRETABILITY TRADE-OFF:
+   - High interpretability models: Logistic Regression (0.680 accuracy)
+   - High accuracy models: Random Forest (0.813 accuracy)
+   - Balanced approach: XGBoost (0.760 accuracy)
+
+4. ETHICAL AI IMPLICATIONS:
+   - All models provide different levels of transparency
+   - SHAP explanations reveal feature importance globally
+   - LIME explanations provide local instance-level insights
+   - Trade-offs between performance and explainability must be considered
+
+RECOMMENDATIONS:
+- Use Logistic Regression for regulatory compliance (high interpretability)
+- Use XGBoost for balanced performance and explainability
+- Use Random Forest when accuracy is prioritized
+- Implement both SHAP and LIME for comprehensive explanations
+- Consider domain-specific interpretability requirements
+        

@@ -1,0 +1,83 @@
+LIME EXPLANATIONS COMPARISON REPORT
+================================================================================
+
+LOGISTIC_REGRESSION:
+----------------------------------------
+
+Instance 0 - Predicted Class: 0
+Top 5 Most Important Features:
+  x6 <= -0.87: -0.2283
+  x12 <= -0.65: +0.0791
+  x18 > -0.04: -0.0775
+  x1 <= -0.91: +0.0429
+  x5 > 0.60: +0.0428
+
+Instance 1 - Predicted Class: 0
+Top 5 Most Important Features:
+  x6 <= -0.87: -0.2159
+  -0.65 < x12 <= -0.39: +0.0468
+  x8 <= -0.70: -0.0426
+  x7 <= -0.72: -0.0356
+  x13 <= -0.65: -0.0284
+
+Instance 2 - Predicted Class: 0
+Top 5 Most Important Features:
+  x16 > 0.16: +0.0403
+  x1 <= -0.91: +0.0362
+  -0.28 < x18 <= -0.22: +0.0314
+  -1.06 < x4 <= 0.86: -0.0285
+  -0.22 < x19 <= -0.17: +0.0214
+
+RANDOM_FOREST:
+----------------------------------------
+
+Instance 0 - Predicted Class: 0
+Top 5 Most Important Features:
+  x6 <= -0.87: -0.0309
+  x1 <= -0.91: +0.0224
+  x18 > -0.04: -0.0191
+  x7 <= -0.72: -0.0119
+  x12 <= -0.65: +0.0086
+
+Instance 1 - Predicted Class: 0
+Top 5 Most Important Features:
+  x6 <= -0.87: -0.0333
+  x13 <= -0.65: -0.0161
+  x7 <= -0.72: -0.0136
+  x18 <= -0.28: +0.0131
+  x20 <= -0.27: +0.0127
+
+Instance 2 - Predicted Class: 0
+Top 5 Most Important Features:
+  -0.87 < x6 <= 0.01: -0.0441
+  x1 <= -0.91: +0.0313
+  -0.70 < x8 <= 0.14: -0.0103
+  -0.39 < x12 <= 0.21: -0.0101
+  -0.38 < x15 <= 0.17: -0.0091
+
+XGBOOST:
+----------------------------------------
+
+Instance 0 - Predicted Class: 0
+Top 5 Most Important Features:
+  -1.08 < x3 <= 0.19: +0.0513
+  x6 <= -0.87: -0.0368
+  x19 <= -0.22: +0.0358
+  -1.06 < x4 <= 0.86: +0.0358
+  x1 <= -0.91: +0.0312
+
+Instance 1 - Predicted Class: 0
+Top 5 Most Important Features:
+  x3 <= -1.08: -0.0819
+  x4 <= -1.06: -0.0547
+  x14 <= -0.64: -0.0480
+  x19 <= -0.22: +0.0464
+  x6 <= -0.87: -0.0349
+
+Instance 2 - Predicted Class: 1
+Top 5 Most Important Features:
+  -0.87 < x6 <= 0.01: -0.0533
+  -1.08 < x3 <= 0.19: +0.0502
+  -1.06 < x4 <= 0.86: +0.0442
+  -0.22 < x19 <= -0.17: +0.0414
+  x1 <= -0.91: +0.0312
