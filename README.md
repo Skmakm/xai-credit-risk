@@ -92,3 +92,15 @@ This framework is built with a focus on responsible AI for financial systems:
 
 ## 📄 License
 This project is licensed under the **MIT License**.
+
+
+## 📸 Sample Outputs
+
+### SHAP Feature Importance
+![SHAP](figures/shap_importance_xgboost.png)
+
+### LIME Explanation
+![LIME](figures/lime_xgboost_0.png)
+
+### Model Comparison Radar
+![Radar](figures/comprehensive_comparison_radar.png)
