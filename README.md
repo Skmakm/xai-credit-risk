@@ -97,7 +97,7 @@ This project is licensed under the **MIT License**.
 ## 📸 Sample Outputs
 
 ### SHAP Feature Importance
-![SHAP](figures/shap_importance_xgboost.png)
+![SHAP](figures/shap_summary_xgboost.png)
 
 ### LIME Explanation
 ![LIME](figures/lime_xgboost_0.png)
