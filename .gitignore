@@ -1,8 +1,45 @@
-venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter
 .ipynb_checkpoints/
-.cache/
-*.pkl
-*.joblib
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large ML artifacts (generated)
+models/*.pkl
+results/*.pkl
+results/*.txt
+figures/*.png
+figures/*.jpg
+
+# Data files
+data/*.csv
+data/*.pkl
+data/*.xlsx
+
+# SHAP cache
+*.shap
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
